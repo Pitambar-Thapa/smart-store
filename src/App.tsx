@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from './components/shared/navbar';
+import Footer from './components/shared/footer';
 import logo from './logo.svg';
 import './App.css';
 import DashBoard from './components/dashboard/dashboard';
