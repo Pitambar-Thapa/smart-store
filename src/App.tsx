@@ -9,6 +9,7 @@ import Report from './components/report/report';
 import Billing from './components/billing/billing';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.js';
+import Products from './components/products/Products';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <NavBar/>
         <Routes>
           <Route index Component={DashBoard } />
+          <Route path="products" Component = {Products} />
           <Route path="report" Component = {Report} />
           <Route path="billing" Component = {Billing} />
         </Routes>
