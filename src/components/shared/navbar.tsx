@@ -21,17 +21,17 @@ const NavBar = ()=>{
                 <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">
+                    <a className="nav-link active" aria-current="page">
                     <Link to="/">Home</Link>
                     </a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a className="nav-link">
                         <Link to="/report">Report</Link>
                     </a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a className="nav-link">
                         <Link to="/billing">Billing</Link>
                     </a>
                     </li>
