@@ -2,8 +2,25 @@ import {Outlet, Link} from 'react-router-dom';
 import NavBar from '../shared/navbar';
 import { Line,LineChart,XAxis,Tooltip,CartesianGrid,ResponsiveContainer,PieChart,Pie } from 'recharts';
 import '../../../node_modules/recharts/umd/Recharts'
+import axios from "axios";
+import { useEffect, useState } from 'react';
+
+const client = axios.create({
+  baseURL : "https://localhost:7172/WeatherForecast"
+});
+
+
 
 const DashBoard = ()=>{
+
+  const [posts, setPosts] = useState([]);
+
+  useEffect(()=>{
+    // client.get('?_limit=1').then((response)=>{
+    //   setPosts(response.data);
+    // });
+  });
+
     const data = [
         {
           name: 'Page A',
