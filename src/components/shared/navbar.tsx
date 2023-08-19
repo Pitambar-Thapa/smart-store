@@ -22,7 +22,7 @@ const NavBar = ()=>{
                 <ul className="navbar-nav">
                     <li className="nav-item">
                     <a className="nav-link active" aria-current="page">
-                    <Link to="/">Home</Link>
+                    <Link to="/products">Product</Link>
                     </a>
                     </li>
                     <li className="nav-item">
