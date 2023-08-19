@@ -1,7 +1,7 @@
 const Products = ()=>{
     return (
         <>
-        <h1>This is product page!</h1>
+        <h1>Welcome to product page!</h1>
         </>
     );
 }
