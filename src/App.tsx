@@ -8,7 +8,7 @@ import DashBoard from './components/dashboard/dashboard';
 import Report from './components/report/report';
 import Billing from './components/billing/billing';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
-import '../node_modules/bootstrap/dist/js/bootstrap.js';
+// import '../node_modules/bootstrap/dist/js/bootstrap.js';
 import Products from './components/products/Products';
 
 function App() {
